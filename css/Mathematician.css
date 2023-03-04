@@ -1,0 +1,39 @@
+body{
+    background-color:  #EEA47FFF;
+}
+
+h1{
+    color:  #00539CFF ;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    
+}
+h3{
+    font-size: 25px;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    font-size: 20px;
+    width: 900px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: solid black 5px;
+}
+
+.mathematician_content{
+    float: left;
+    margin-top: 50px;
+}
+.pic{
+    float: right;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+

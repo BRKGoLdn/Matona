@@ -1,0 +1,43 @@
+.container_1>div{
+    border: none;
+    display: inline; 
+}
+.option{
+    font-size: 20px;
+    margin-left: 120px;
+    
+}
+.container_1{
+    width: 1200px;
+}
+a{
+    border: none;
+    text-decoration: none;
+    display: inline;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(229, 126, 126);
+}
+.container_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 1000px;
+    border: none;
+    background-color: #00539CFF ;
+    color: white;
+    transition: 0.6s;
+    opacity: 0.3;
+    border: none;
+    font-size: 15px;
+}
+
+.container_1{
+    border: none;
+}
+
+.container_btn:hover{
+    opacity: 1;
+
+}

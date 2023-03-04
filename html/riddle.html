@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Math Riddle</title>
+    <link rel="stylesheet" href="/css/riddle.css">
+    <link rel="stylesheet" href="/css/container.css">
+</head>
+<body>
+    
+    <div class="container_1">
+        <div class="option"> <a href="/html/index.html"> <button class="container_btn">Home</button> </a>  </div>
+        <div class="option"> <a href="/html/games.html"><button class="container_btn">Game</button> </a>  </div>
+        <div class="option"> <a href="/html/riddle.html"><button class="container_btn">Riddle</button> </a>  </div>
+        <div class="option"> <a href="/html/Mathematician.html"><button class="container_btn">Mathematician</button>  </a></div>
+    </div>  
+
+
+    <h1> RIDDLE</h1>
+
+    <p>Math riddles help you improve your numerical and analytical skills. Even though a puzzle appears absurd or odd, it can still be challenging; framing a mathematical subject as a riddle forces students to use critical and analytical thinking in novel ways, which improves their overall comprehension.</p>
+
+    <div class="question_bar">
+        <div class="question">
+            <p> If there are 20 people in a room and they each shake each other’s hand once and only once, how many handshakes were there all together?</p>
+        </div>
+
+        <div class="a1">
+            <button id="wrong" onclick="yap()">A. 400</button>
+        </div>
+        <div class="a2">
+            <button id="correct" onclick="yap()">B. 380</button>
+        </div>
+        <div class="a3">
+            <button id="wrong2" onclick="yap()">C. 390</button>
+        </div>
+        <div class="a4">
+            <button id="wrong3" onclick="yap()">D. 385</button>
+        </div>
+    </div>
+    <div class="question_bar">
+        <div class="question">
+            <p> If you had to write down all of the whole numbers between 1 and 100, how many times would you have to write the number 8? </p>
+        </div>
+
+        <div class="a1">
+            <button id="y" onclick="yap2()">A. 35</button>
+        </div>
+        <div class="a2">
+            <button id="y2" onclick="yap2()">B. 25</button>
+        </div>
+        <div class="a3">
+            <button id="y3" onclick="yap2()">C. 30</button>
+        </div>
+        <div class="a4">
+            <button id="c" onclick="yap2()">D. 20</button>
+        </div>
+    </div>
+
+    <div class="question_bar">
+        <div class="question">
+            <p> A few playing cards are missing from a standard 52-card deck. Three cards remain when you deal the entire deck to four people. And two cards remain when you deal the entire deck to three people OR if you deal the entire deck to five people. How many cards are missing from the deck? </p>
+        </div>
+
+        <div class="a1">
+            <button id="t" onclick="yap3()">A. 47</button>
+        </div>
+        <div class="a2">
+            <button id="f1" onclick="yap3()">B. 45</button>
+        </div>
+        <div class="a3">
+            <button id="f2" onclick="yap3()">C. 46</button>
+        </div>
+        <div class="a4">
+            <button id="f4" onclick="yap3()">D. 48</button>
+        </div>
+    </div>
+
+    <div class="question_bar">
+        <div class="question">
+            <p>How many eggs does this hen lay a hen and a half lays an egg and a half in a day and a half How many eggs does one hen lay in one day? </p>
+        </div>
+
+        <div class="a1">
+            <button id="ff2" onclick="yap4()">A. 27</button>
+        </div>
+        <div class="a2">
+            <button id="ff" onclick="yap4()">B. 26</button>
+        </div>
+        <div class="a3">
+            <button id="cc" onclick="yap4()">C. 24</button>
+        </div>
+        <div class="a4">
+            <button id="ff3" onclick="yap4()">D. NONE </button>
+        </div>
+    </div>
+    <button class="btn" id="btn" onclick="total()"> SUBMIT</button>
+
+
+
+    <h3 id="score" class="score"> </h3>
+
+
+
+
+
+
+    <script src="/JS/riddle.js"></script>
+
+
+</body>
+</html>

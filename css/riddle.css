@@ -1,0 +1,56 @@
+*{
+    background-color: #EEA47FFF;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: fantasy;
+    color: #00539CFF;
+}
+div{
+    border: solid 1px black;
+    width: 800px;
+    margin: auto;
+}
+.question_bar{
+    margin-top: 100px;
+}
+.question>p{
+    font-size: 25px;
+}
+button{
+    background-color:#EEA47FFF;
+    border: none;
+    font-size: 20px;
+    transition: 0.6s;
+}
+p{
+    font-size:  30px;
+    text-align: center;
+}
+button:hover{
+    color:white;
+}
+.btn{
+    margin-left: 45%;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;  
+    width: 125px;
+    height: 25px; 
+    color: white;
+    font-size: 17px;
+}
+
+.btn:hover{
+    border-radius: 100px;
+    width: 125px;
+}
+
+.score{
+    margin-left: 40%;
+    font-size: 35px;
+    color: black;
+}
+
